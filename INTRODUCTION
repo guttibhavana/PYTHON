@@ -1,0 +1,37 @@
+#INTRODUCTION TO PYTHON
+
+Programming is defined as creating a set of instructions that tell a computer how to perform tasks. This process uses various programming languages like JavaScript, Python, C, C++, and C#.
+The video differentiates between programming and coding, emphasizing that programming involves planning and designing software solutions, while coding is writing the actual instructions.
+Programming languages are categorized into two types:
+High-level languages (e.g., Python, JavaScript) which are human-readable.
+Low-level languages (e.g., machine code) which consist of binary (zeros and ones) understood directly by computers.
+Source code is written in high-level languages and must be translated to machine code for execution.
+
+Python as a Programming Language:
+Python is described as an interpreted, high-level, dynamically typed, portable language.
+It is free and open source, known for easy-to-read syntax and code readability.
+Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+It has extensive support for graphical user interfaces (GUI) and can be used to build applications such as calculators.
+Python’s modularity:
+Functions are blocks of code performing specific tasks.
+Multiple functions form modules.
+Multiple modules form packages.
+Collections of packages form libraries.
+Python flavors and implementations exist to suit different use cases, though specifics are Not specified.
+
+Applications and Industry Use:
+Python is extensively used in multiple domains:
+Data science: Due to numerous libraries and frameworks supporting data analysis, machine learning (ML), and deep learning.
+Robotics and artificial intelligence (AI).
+Web development, often alongside JavaScript.
+Scientific computing and data visualization.
+Major companies using Python include: Google, Dropbox, Yahoo, Uber, Instagram, Pinterest, Reddit, IBM.
+
+Features of Python:
+Free and open-source
+Easy to code and read
+Portable across platforms
+Supports graphical user interfaces
+Dynamically typed
+Integrated with many libraries and frameworks
+Modular programming support
