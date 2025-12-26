@@ -1,0 +1,46 @@
+Python Environment Setup:
+Using VS Code to create project folders and .py files.
+Example: Folder for Jan 2023 batch; container.py.
+
+Comments:
+Explain code; ignored by Python interpreter.
+Single-line: #
+Multi-line: ''' ''' or """ """
+
+Variables:
+Store data values; created when assigned.
+Must start with a letter or _.
+Example: name = 20
+
+Keywords:
+Reserved words with special meaning; cannot be used as variable names.
+Examples: def, return, if, while
+
+Data Types:
+Define the type of data stored.
+Examples: int, float, bool
+
+Type Checking:
+Identify the data type using type().
+Example: type(10) → <class 'int'>
+
+Type Conversion:
+Change one data type to another
+Functions: int(), float(), etc.
+Example: int("10") converts string to integer
+
+Mathematical Expressions:
+Perform calculations using operators.
+Examples: (a + b) ** 2, +, *, **
+
+Practical Applications:
+Implement real-world programs using Python concepts.
+Examples: Simple Interest, Compound Interest calculations
+
+summary:
+Python supports dynamic typing, making variable creation simple.
+Proper use of comments improves readability and collaboration.
+Variable naming rules prevent syntax errors.
+Data types and type conversion are fundamental for calculations and logic.
+Practical examples, like interest calculations, reinforce theoretical concepts.
+Using VS Code shortcuts and extensions increases coding productivity.
