@@ -1,0 +1,40 @@
+LIST DATATYPE:
+A list is described as a data structure used to store a sequence of various types of data.
+Lists can contain heterogeneous data types (i.e., different types of data in one list).
+The nature of lists as mutable collections is introduced, meaning their contents can be changed after creation.
+Lists are defined using square brackets [ ].
+
+Characteristics and Syntax of Lists:
+Items in a list are separated by commas.
+Lists can hold multiple values of differing types, such as integers, strings, floats, etc.
+Lists are a collection of values or items that can be manipulated.
+The mutability of lists is emphasized again, contrasting with immutable data types.
+Lists are enclosed within square brackets, distinguishing them syntactically from other data structures.
+
+Indexing in Lists:
+Lists have indexes starting at 0 for the first element (zero-based indexing).
+The total number of elements in a list is referred to as its length.
+Positive indexing begins from the start (left to right), starting at zero.
+Negative indexing is introduced as indexing from the end of the list (right to left), starting at -1 for the last element.
+Indexing allows accessing individual elements within the list.
+The slicing syntax is reiterated: start:stop:skip (skip = step).
+Indexing examples with various start, stop, and step parameters are discussed.
+
+The double colon syntax in slicing: ::step.
+The step parameter can be used to skip elements or reverse the list (e.g., step = -1 for reversing).
+append: Adds a single element to the end of the list.
+extend: Adds multiple elements (from an iterable) to the end of the list.
+
+Mutability means lists can grow and shrink dynamically, unlike tuples or strings.
+Lists can be modified after creation (add, remove, change elements).	
+example:my_list[0] = 10
+
+List Methods: pop(), remove(), and index()
+pop(): Removes and returns an element at a specified index (defaults to last).
+remove(): Removes the first occurrence of a specified value.
+index(): Returns the index of the first occurrence of a value.
+Looping Through Lists and List Comprehensions
+Use of for loops to iterate over list elements.
+
+Sets for Uniqueness	Convert list to set to remove duplicates.	
+unique = set(my_list)
