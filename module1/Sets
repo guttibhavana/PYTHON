@@ -1,0 +1,14 @@
+Set Data Structure:
+set is an unordered, unindexed collection with no duplicate values. Compared sets to lists and emphasized their uniqueness and the fact that items cannot be accessed by index.
+You can create a set using curly braces {} or the set() constructor. 
+Sets support various methods and operators for modification and mathematical operations. 
+modification methods:add(), update(), remove(), discard(), pop(),clear()
+Basic Set maths Operations: Union, Difference, Intersection
+comparision: issubset(), issuperset(),isdisjoint()
+
+Advanced Set Operations and Concepts:
+Covered symmetric difference, disjoint sets, subset and superset relations, and their practical implementations in Python.
+
+Frozenset: Immutable Sets
+Frozenset, the immutable version of the set. Explained that frozensets are hashable, can be used as dictionary keys or set elements
+Frozenset is the immutable counterpart of a set; it can be used as a dictionary key or within other sets due to hashability.
