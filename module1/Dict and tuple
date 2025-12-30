@@ -1,0 +1,24 @@
+Dictionaries:
+Dictionaries are changeable, allowing addition, modification, or deletion of items after creation.
+The general concept of a dictionary as a collection of key-value pairs is explained, highlighting its flexibility compared to lists
+Dictionaries are defined using curly braces {}.
+Keys and values can be of various data types, including strings, numbers, and Booleans.
+Examples such as {"name": "Sunny", "age": 22} illustrate typical dictionary structure.
+
+common dictionary methods and operations:
+clear() to empty the dictionary
+copy() to duplicate it
+get() to safely retrieve values
+items() to get key-value pairs
+keys() to get all keys
+pop() to remove an item by key
+update() to merge dictionaries or update existing keys
+Nested dictionaries:
+Dictionaries can contain other dictionaries as values, enabling complex data structures.
+Example given:
+{ 1: {"name": "Alice"}, 2: {"name": "Bob"} }
+
+Tuple Data structure:
+tuples are immutable, contrasting with dictionaries’ mutability.
+Immutable ordered sequence, useful for fixed data like coordinates
+Python tuples have only two built-in methods: count() and index(). 
