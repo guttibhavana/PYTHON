@@ -64,4 +64,4 @@ for i in range(len(items)):
             print(75*"-")
 
 output:
-https://github.com/user-attachments/assets/e776d83a-ee99-4f9a-b538-4db110c9e8e2
+![My Screenshot](https://github.com/user-attachments/assets/e776d83a-ee99-4f9a-b538-4db110c9e8e2)
