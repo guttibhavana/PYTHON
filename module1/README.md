@@ -1,5 +1,5 @@
-#MINI PROJECT
-
+#MINI PROJECT 
+```
 from datetime import datetime
 
 name = input("enter name:")
@@ -82,7 +82,9 @@ if inp == 'yes' and finalamount != 0:
     print("GST Amount: Rs", gst)
     print("Final Amount: Rs", finalamount)
     print(75 * "-")
-    print("Thanks for visiting 😊")
+    print("Thanks for visiting")
+```
+
 
 
 output:
