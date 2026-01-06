@@ -1,4 +1,4 @@
-FILE HANDLING IN PYTHON
+# FILE HANDLING IN PYTHON
 
 File handling allows data to be stored permanently in files instead of losing it when a program stops.
 Python provides the built-in open() function to work with files.
@@ -10,14 +10,14 @@ File Modes:
 `r+` -- Read and write                      
 `w+` -- Write and read                     
 `a+` -- Append and read  
-Reading from a File
+## Reading from a File
 Files can be read using methods such as:
 read() – reads the entire file
 readline() – reads one line at a time
 readlines() – reads all lines as a list
 The content of a file can be stored in a variable and printed to verify the data.
 
-Writing to a File
+## Writing to a File
 The write() function is used to write data into a file. When a file is opened in write mode, the existing data is removed and replaced with new data.
 
 Append Mode
@@ -40,26 +40,26 @@ with Statement
 The with statement is used to open a file in a safe way. It automatically closes the file after the operations are completed.
 
 
-Exception Handling in Python
+# Exception Handling in Python
 An exception is an error that occurs during the execution of a program. Instead of stopping the program abruptly, exceptions allow the program to handle errors gracefully.
 
 Types of Errors
 Compile-time errors (Syntax errors) – These occur due to incorrect code structure and must be fixed before the program runs.
 Runtime errors – These occur while the program is running, such as dividing a number by zero.
 
-try and except
+## try and except
 The try block contains code that may cause an error.
 The except block handles the error so that the program does not crash.
 
-Multiple Exceptions
+## Multiple Exceptions
 Different types of runtime errors can be handled separately using multiple except blocks or together in a single block.
 
 else Block
 The else block runs when no exception occurs in the try block.
 
-finally Block
+## finally Block
 The finally block always executes, whether an error occurs or not. It is used for cleanup tasks like closing files.
 
-Raising Exceptions
+## Raising Exceptions
 Python allows programmers to manually raise exceptions using the raise keyword when a specific condition is violated.
 
