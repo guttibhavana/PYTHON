@@ -40,7 +40,8 @@ Useful for short, throwaway functions used inline with map, filter, etc.
 Emphasized that Lambda functions do not have a name unless assigned to a variable.
 
 # Advance Functions
-## map():	Applies a function to all items in an iterable and returns a new iterable with transformed items
+##
+map():	Applies a function to all items in an iterable and returns a new iterable with transformed items
 filter():	Applies a function that returns a boolean to filter items, returning only those where function is True
 The reduce() function applies a function cumulatively to items in an iterable, reducing it to a single value.
 Example: summing a list of numbers:
