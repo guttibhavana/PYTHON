@@ -21,6 +21,29 @@ A simple command-line **Rock Paper Scissors** game built using Python. The user 
 
 ---
 
+## source code 
+
+```
+import random
+
+choices=["rock","paper","scissors"]
+
+user= input("enter your choice:")
+
+computer=random.choice(choices)
+
+print("you choose:",user)
+print("computer choose:",computer)
+
+if user==computer:
+    print("it's a tie")
+
+elif (user=="rock" and computer=="scissors") or (user=="paper" and computer=="rock") or (user=="scissors" and computer=="paper"):
+    print("you win!")
+else:
+    print("computer win!")
+```
+
 
 ## 💻 Sample Output
 
