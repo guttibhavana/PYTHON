@@ -22,7 +22,31 @@ A simple Python program that calculates a student's total marks, average, percen
 
 ---
 
----
+## source code 
+
+```
+name=input("student name")
+
+sub1= int(input("subject 1 marks"))
+sub2= int(input("subject 2 marks"))
+sub3= int(input("subject 3 marks"))
+
+total= sub1+sub2+sub3
+average-total/3
+percentage = (total/300) *100
+
+print("\n student:")
+print("Total:" , total)
+print("Average:",average)
+print("Percentage:",percentage)
+
+if percentage>=35:
+    print("Pass")
+
+else:
+    print("Fail")
+```
+
 
 ## 💻 Sample Output
 
