@@ -20,12 +20,19 @@ A simple Python program that calculates a user's age based on their birth year. 
 
 ---
 
-## 📂 Project Structure
+## 💻 Source Code
 
 ```
-age-calculator/
-│── age_calculator.py
-│── README.md
+from datetime import datetime
+
+birth_year = int(input("enter you birth year:"))
+
+current_year = datetime.now().year
+
+age=current_year - birth_year
+
+print("year age:",age)
+
 ```
 
 ---
