@@ -1,0 +1,122 @@
+# 🏦 Simple ATM System (Python)
+
+A basic command-line ATM simulation built using Python. Users can check their balance, deposit money, withdraw money, and exit the program through a simple menu-driven interface.
+
+---
+
+## 📌 Features
+
+- 💰 Check account balance
+- ➕ Deposit money
+- ➖ Withdraw money
+- 🚫 Prevents withdrawal if balance is insufficient
+- 🔄 Menu-driven program using a loop
+- ❌ Exit option
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+
+---
+
+## 📂 Project Structure
+
+```
+simple-atm-system/
+│── atm_system.py
+│── README.md
+```
+
+---
+
+## 💻 Source Code
+
+```python
+balance = 1000
+
+while True:
+    print("\n1. Check Balance")
+    print("2. Deposit")
+    print("3. Withdraw")
+    print("4. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        print("Balance:", balance)
+
+    elif choice == 2:
+        amount = int(input("Enter amount to deposit: "))
+        balance += amount
+        print("Amount deposited successfully!")
+
+    elif choice == 3:
+        amount = int(input("Enter amount to withdraw: "))
+        if amount <= balance:
+            balance -= amount
+            print("Withdrawal successful!")
+        else:
+            print("Insufficient balance!")
+
+    elif choice == 4:
+        print("Thank you!")
+        break
+
+    else:
+        print("Invalid choice!")
+```
+
+---
+
+## 💻 Sample Output
+
+```
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+Enter your choice: 2
+Enter amount to deposit: 500
+Amount deposited successfully!
+
+Enter your choice: 1
+Balance: 1500
+
+Enter your choice: 3
+Enter amount to withdraw: 700
+Withdrawal successful!
+
+Enter your choice: 1
+Balance: 800
+
+Enter your choice: 4
+Thank you!
+```
+
+---
+
+## 🧠 How It Works
+
+1. The account starts with a balance of **1000**.
+2. A menu is displayed repeatedly until the user chooses to exit.
+3. The user can:
+   - Check the current balance.
+   - Deposit money into the account.
+   - Withdraw money if sufficient funds are available.
+4. The program ends when the user selects the **Exit** option.
+
+---
+
+## 📚 Concepts Used
+
+- Variables
+- User Input
+- `while` Loop
+- Conditional Statements (`if`, `elif`, `else`)
+- Arithmetic Operators
+- Menu-Driven Programming
+
+---
